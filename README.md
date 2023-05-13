@@ -9,9 +9,13 @@ This script is designed to extract unique domains from an input file and save th
 • Python 3.x
 
 • The following Python modules need to be installed:
+
    • codecs
+
    • os
+
    • re
+
    • time
 
 【Usage】
@@ -34,8 +38,11 @@ This script is designed to extract unique domains from an input file and save th
 8- During the processing, an animation will be displayed to indicate progress.
 
 9- After completion, the script will display the following information:
+
    • Number of lines found in the input file that contained domain names.
+
    • Time taken to process the input file.
+
    • Number of unique domains saved in the output file.
 
 10- The output file will be saved with the extracted unique domains.
